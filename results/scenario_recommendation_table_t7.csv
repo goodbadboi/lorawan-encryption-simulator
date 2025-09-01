@@ -1,0 +1,6 @@
+Scheme,Energy (mJ),ToA (s),Overhead (B),Success Rate (%),Security Score,Attack Success Rate (%),low_power_periodic_score,stable_long_session_score,high_compliance_long_life_score,low_power_periodic_rank,stable_long_session_rank,high_compliance_long_life_rank
+AES-128-GCM,5.33,0.256,28,95.9,0.973,2.7,0.779,0.890,0.954,5,5,1
+ChaCha20-Poly1305,8.82,0.635,28,100.0,0.863,17.3,0.451,0.530,0.776,3,1,3
+Hybrid-ECC-AES,3.20,0.304,48,97.1,0.871,16.5,0.909,0.785,0.853,1,3,2
+Advanced-ECC-AES,7.47,0.491,180,96.8,0.589,44.7,0.236,0.356,0.560,2,2,5
+ChaCha20-Poly1305-Lite,3.13,0.155,16,97.6,0.724,31.2,0.945,0.890,0.751,4,4,4

@@ -1,0 +1,129 @@
+{
+  "simulation_info": {
+    "duration": 899.0,
+    "total_devices": 20,
+    "total_gateways": 2,
+    "area_size": [
+      1000,
+      1000
+    ],
+    "simulator_type": "Enhanced LoRaWAN"
+  },
+  "network_statistics": {
+    "total_packets": 274,
+    "successful_transmissions": 267,
+    "failed_transmissions": 7,
+    "overall_success_rate": 0.9744525547445255,
+    "join_requests": 29,
+    "join_accepts": 19,
+    "adr_adjustments": 6
+  },
+  "encryption_performance": {
+    "AES-128-GCM": {
+      "total_packets": 49,
+      "successful": 47,
+      "success_rate": 0.9591836734693877,
+      "average_encryption_time": 162073.4693877551,
+      "average_transmission_time": 0.25587461224489794,
+      "average_energy": 5332454.32040897,
+      "average_overhead": 28.0,
+      "average_snr": 31.250689260629333,
+      "average_rssi": -83.46493479689016
+    },
+    "ChaCha20-Poly1305": {
+      "total_packets": 45,
+      "successful": 45,
+      "success_rate": 1.0,
+      "average_encryption_time": 32917.77777777778,
+      "average_transmission_time": 0.6351274666666668,
+      "average_energy": 8821647.84845101,
+      "average_overhead": 28.0,
+      "average_snr": 34.24070528368927,
+      "average_rssi": -79.85957931692552
+    },
+    "Hybrid-ECC-AES": {
+      "total_packets": 34,
+      "successful": 33,
+      "success_rate": 0.9705882352941176,
+      "average_encryption_time": 128152.94117647059,
+      "average_transmission_time": 0.3040470588235294,
+      "average_energy": 3204582.4522752836,
+      "average_overhead": 48.0,
+      "average_snr": 22.940630120090002,
+      "average_rssi": -88.18090612096526
+    },
+    "Advanced-ECC-AES": {
+      "total_packets": 63,
+      "successful": 61,
+      "success_rate": 0.9682539682539683,
+      "average_encryption_time": 1387166.6666666667,
+      "average_transmission_time": 0.49055492063492057,
+      "average_energy": 7472708.875255733,
+      "average_overhead": 180.0,
+      "average_snr": 24.736611146478253,
+      "average_rssi": -89.07240381871934
+    },
+    "ChaCha20-Poly1305-Lite": {
+      "total_packets": 83,
+      "successful": 81,
+      "success_rate": 0.9759036144578314,
+      "average_encryption_time": 35375.903614457835,
+      "average_transmission_time": 0.15463710843373493,
+      "average_energy": 3130553.075115879,
+      "average_overhead": 16.0,
+      "average_snr": 28.495426320852804,
+      "average_rssi": -83.41573889972793
+    }
+  },
+  "device_statistics": {
+    "class_a_count": 15,
+    "class_b_count": 5,
+    "class_c_count": 0,
+    "joined_devices": 19,
+    "average_battery": 25.108160868328813,
+    "sf_distribution": {
+      "SF7": 8,
+      "SF8": 3,
+      "SF9": 1,
+      "SF10": 1,
+      "SF11": 3,
+      "SF12": 4
+    }
+  },
+  "recommendation": {
+    "recommended_scheme": "AES-128-GCM",
+    "score": 0.9269684443631081,
+    "reason": "Best overall performance, Encryption time: 162073ns, Success rate: 95.92%, Defense performance: 97.3%",
+    "all_scores": {
+      "AES-128-GCM": 0.9269684443631081,
+      "ChaCha20-Poly1305": 0.8018030682697933,
+      "Hybrid-ECC-AES": 0.8974443445597668,
+      "Advanced-ECC-AES": 0.5716068503341867,
+      "ChaCha20-Poly1305-Lite": 0.8558663378276722
+    },
+    "defense_scores": {
+      "AES-128-GCM": 0.9726017898735714,
+      "ChaCha20-Poly1305": 0.8626397330271429,
+      "Hybrid-ECC-AES": 0.8712040256614286,
+      "Advanced-ECC-AES": 0.5886420382007143,
+      "ChaCha20-Poly1305-Lite": 0.7237808684264286
+    },
+    "tied_schemes": null,
+    "tie_breaking_applied": false,
+    "performance_details": {
+      "encryption_time_ns": 162073.4693877551,
+      "transmission_time_s": 0.25587461224489794,
+      "energy_consumption_nj": 5332454.32040897,
+      "success_rate": 0.9591836734693877,
+      "overhead_bytes": 28.0
+    },
+    "data_source": "real_measurements",
+    "scheme_mapping": {
+      "AES-128-GCM": "aes-128-gcm",
+      "ChaCha20-Poly1305": "chacha20-poly1305",
+      "Hybrid-ECC-AES": "hybrid-ecc-aes",
+      "Advanced-ECC-AES": "advanced-ecc-aes",
+      "ChaCha20-Poly1305-Lite": "chacha20-poly1305-lite"
+    }
+  }
+}

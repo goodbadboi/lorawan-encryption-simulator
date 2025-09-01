@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "total_schemes_tested": 9,
+    "total_attack_types": 7,
+    "test_timestamp": "2025-08-26 02:41:13"
+  },
+  "scheme_rankings": [
+    {
+      "rank": 1,
+      "scheme_name": "AES-128-GCM",
+      "security_score": 0.9726017898735714,
+      "success_rate": 0.027428571428571427,
+      "average_vulnerability_score": 0.02739821012642857
+    },
+    {
+      "rank": 2,
+      "scheme_name": "Hybrid-ECC-AES",
+      "security_score": 0.8712040256614286,
+      "success_rate": 0.16457142857142856,
+      "average_vulnerability_score": 0.12879597433857143
+    },
+    {
+      "rank": 3,
+      "scheme_name": "Lattice-Based",
+      "security_score": 0.8634963702178572,
+      "success_rate": 0.1722857142857143,
+      "average_vulnerability_score": 0.13650362978214284
+    },
+    {
+      "rank": 4,
+      "scheme_name": "ChaCha20-Poly1305",
+      "security_score": 0.8626397330271429,
+      "success_rate": 0.17314285714285715,
+      "average_vulnerability_score": 0.13736026697285714
+    },
+    {
+      "rank": 5,
+      "scheme_name": "SPHINCS+",
+      "security_score": 0.8342416327757143,
+      "success_rate": 0.20157142857142857,
+      "average_vulnerability_score": 0.16575836722428572
+    },
+    {
+      "rank": 6,
+      "scheme_name": "Dilithium",
+      "security_score": 0.8340951823514285,
+      "success_rate": 0.2017142857142857,
+      "average_vulnerability_score": 0.16590481764857143
+    },
+    {
+      "rank": 7,
+      "scheme_name": "Kyber",
+      "security_score": 0.83195728687,
+      "success_rate": 0.20385714285714285,
+      "average_vulnerability_score": 0.16804271313
+    },
+    {
+      "rank": 8,
+      "scheme_name": "ChaCha20-Poly1305-Lite",
+      "security_score": 0.7237808684264286,
+      "success_rate": 0.31214285714285717,
+      "average_vulnerability_score": 0.2762191315735714
+    },
+    {
+      "rank": 9,
+      "scheme_name": "Advanced-ECC-AES",
+      "security_score": 0.5886420382007143,
+      "success_rate": 0.4472857142857143,
+      "average_vulnerability_score": 0.41135796179928574
+    }
+  ],
+  "attack_type_analysis": {
+    "replay": {
+      "total_attempts": 9000,
+      "successful_attempts": 7992,
+      "average_vulnerability_score": 0.6655511176450055
+    },
+    "mitm": {
+      "total_attempts": 9000,
+      "successful_attempts": 996,
+      "average_vulnerability_score": 0.11055566491888882
+    },
+    "brute_force": {
+      "total_attempts": 9000,
+      "successful_attempts": 1000,
+      "average_vulnerability_score": 0.11105170201833325
+    },
+    "side_channel": {
+      "total_attempts": 9000,
+      "successful_attempts": 0,
+      "average_vulnerability_score": 0.0
+    },
+    "packet_tampering": {
+      "total_attempts": 9000,
+      "successful_attempts": 2000,
+      "average_vulnerability_score": 0.22205194493000024
+    },
+    "jamming": {
+      "total_attempts": 9000,
+      "successful_attempts": 1340,
+      "average_vulnerability_score": 0.14872151583999996
+    },
+    "key_extraction": {
+      "total_attempts": 9000,
+      "successful_attempts": 0,
+      "average_vulnerability_score": 0.0
+    }
+  },
+  "recommendations": [
+    "Recommend using AES-128-GCM as the primary encryption scheme (security score: 0.973)",
+    "Avoid using Advanced-ECC-AES as the primary scheme (security score: 0.589)",
+    "Most effective attack type: replay",
+    "Most secure attack type: side_channel"
+  ],
+  "run_id": "1756147104_337661_9bb6dfc2"
+}
